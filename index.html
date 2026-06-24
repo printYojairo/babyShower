@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shower Alessandro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- MÚSICA -->
+
+    <audio id="bgMusic" loop preload="auto">
+        <source src="img/musica1.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- PORTADA -->
+
+    <section id="welcome">
+
+        <div class="overlay">
+
+            <h1>BABY SHOWER</h1>
+
+            <h2>Norbil y Milka</h2>
+
+            <p>
+                Están felices de compartir este momento tan importante contigo
+            </p>
+
+            <button id="openInvitation">
+
+                <i class="fa-solid fa-envelope-open-text"></i>
+
+                <span>Abrir Invitación</span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- INVITACIÓN -->
+
+    <section id="invitation">
+
+        <div class="invite-shell">
+
+            <div class="invite-card">
+
+                <img src="img/monio-sinFondo.png" class="bow" alt="Moño">
+
+                <!--
+                <button id="musicBtn" class="play-badge" aria-label="Reproducir o pausar música">
+                    <svg class="play-ring" viewBox="0 0 200 200" aria-hidden="true">
+                        <defs>
+                            <path id="ringPath" d="M 100,100 m -72,0 a 72,72 0 1,1 144,0 a 72,72 0 1,1 -144,0" />
+                        </defs>
+                        <text class="ring-text">
+                            <textPath href="#ringPath" startOffset="50%" text-anchor="middle">
+                                DALE CLICK • DALE CLICK •
+                            </textPath>
+                        </text>
+                    </svg>
+
+                    <span class="play-icon" aria-hidden="true">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
+                </button>
+                -->
+
+                <h2 class="names">Norbil y Milka</h2>
+
+                <p class="intro">TE INVITAMOS AL</p>
+
+                <h1 class="title">BABY<br>SHOWER</h1>
+
+                
+                <p class="honor">EN HONOR A</p>
+
+                <h3 class="baby-name">Rodrigo Sebastian</h3>
+
+                <!--
+                <div class="ultrasound-row">
+                    <img src="img/monio.jpg" class="ultrasound" alt="Eco / imagen">
+                </div>
+                -->
+
+                <div class="divider-swish" aria-hidden="true"></div>
+
+                <div class="date-block" aria-label="Fecha del evento">
+                    <div class="month">JULIO</div>
+
+                    <div class="date-grid">
+                        <div class="line line-top" aria-hidden="true"></div>
+
+                        <div class="left">
+                            <div class="label">MARTES</div>
+                        </div>
+
+                        <div class="day">28</div>
+
+                        <div class="right">
+                            <div class="label">6:00 PM</div>
+                        </div>
+
+                        <div class="line line-bottom" aria-hidden="true"></div>
+                    </div>
+
+                    <div class="year">2026</div>
+                </div>
+
+                <div class="divider-swish" aria-hidden="true"></div>
+
+                <section class="countdown">
+                    <h2 class="script">¿Cuánto falta?</h2>
+
+                    <div class="countdown-row">
+                        <div id="timer" class="timer"></div>
+
+                        <!-- animalito al costado (usa tu estilo azul) -->
+                        <div class="countdown-animal" aria-hidden="true"></div>
+                    </div>
+                </section>
+
+                <section class="location">
+                    <h2 class="script">Dirección:</h2>
+                    <p class="place">“CALLE NICOLAS DE AYLLON #1298”</p>
+                    <a class="btn" href="https://maps.google.com" target="_blank" rel="noopener">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>VER UBICACIÓN</span>
+                    </a>
+                </section>
+
+                <section class="confirm">
+                    <h2 class="script">Confirmar asistencia:</h2>
+                    <p class="confirm-text">
+                        ERES DE LAS PERSONAS MÁS IMPORTANTES PARA NOSOTROS Y POR ESO NOS GUSTARÍA
+                        CONTAR CON TU COMPAÑÍA EN ESTE DÍA TAN ESPECIAL, CONFIRMA TU ASISTENCIA ENVIANDO
+                        UN MENSAJE EN EL WHATSAPP.
+                    </p>
+
+                    <div class="wa-buttons">
+                        <a class="btn wa" href="https://wa.me/51960351617?text=Hola,%20quiero%20confirmar%20mi%20asistencia%20con%20mam%C3%A1" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>MAMÁ</span>
+                        </a>
+
+                        <a class="btn wa" href="https://wa.me/51960351617?text=Hola,%20quiero%20confirmar%20mi%20asistencia%20con%20pap%C3%A1" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>PAPÁ</span>
+                        </a>
+                    </div>
+
+                    <p class="see-you">¡Te esperamos!</p>
+                </section>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
